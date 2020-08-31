@@ -16,6 +16,12 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 mysql = MySQL(app)
 
 
+# Index Route
+@app.route('/')
+def index():
+    return render_template('home.html')
+
+
 
 if __name__ == '__main__':
     app.secret_key='secret123'
