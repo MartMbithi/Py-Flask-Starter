@@ -19,7 +19,7 @@ mysql = MySQL(app)
 # Index Route
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('welcome.html')
 
 
 
