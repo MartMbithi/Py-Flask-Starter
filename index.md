@@ -15,9 +15,13 @@ How use this
       * Install sudo apt-get install libmysqlclient-dev 
       * (venv)$ pip install flask-wtf
       * (venv)$ pip install passlib
+      * (venv)$ python app.py
 ```
-Happy Coding 
+Happy Coding <br>
 
+<p>
+  <img src ='https://github.com/MartMbithi/Py-Flask-Starter/blob/master/Screenshot.png'>
+</p>
 
 ### Support
 
