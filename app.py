@@ -112,7 +112,14 @@ def is_logged_in(f):
             flash('Unauthorized, Please login', 'danger')
             return redirect(url_for('login'))
     return wrap
-    
+
+
+# Home 
+@app.route('/home')
+@is_logged_in
+def dashboard():
+    return render_template('home.html')
+
 
 # Logout
 @app.route('/logout')
