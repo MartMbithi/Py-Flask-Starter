@@ -6,7 +6,7 @@
       <div class="card-header">
           <h1>Register</h1>
           <div class="card-body">
-                {% from "includes/_formhelpers.html"  import render_field %}
+                {% from "partials/_formhelpers.html"  import render_field %}
                 <form method="POST" action="">
                   <div class="form-group">
                     {{render_field(form.name, class_="form-control")}}
