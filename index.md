@@ -1,27 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to Py-Flask-Starter🚀
+  A Python Flask template for fast flask development.
 
-You can use the [editor on GitHub](https://github.com/MartMbithi/Py-Flask-Starter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### How To Run
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```
+How use this 
+  * Git clone
+    * virtualenv venv
+      * $ source venv/bin/activate
+      * (venv)$ pip install flask
+      * (venv)$ pip install mysql-connector-python
+      * (venv)$ pip install flask-mysqldb
+      * Incase you encounter any error installing 'pip install flask-mysqldb',
+      * Install sudo apt-get install libmysqlclient-dev 
+      * (venv)$ pip install flask-wtf
+      * (venv)$ pip install passlib
+```
+Happy Coding 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
