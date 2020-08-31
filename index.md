@@ -20,7 +20,7 @@ How use this
 Happy Coding <br>
 
 <p>
-  <img src ='https://github.com/MartMbithi/Py-Flask-Starter/blob/master/Screenshot.png'>
+  <img src ='https://raw.githubusercontent.com/MartMbithi/Py-Flask-Starter/master/Screenshot.png'>
 </p>
 
 ### Support
